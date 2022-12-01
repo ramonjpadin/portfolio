@@ -1,0 +1,44 @@
+:root {
+    --color1: #262b2f;
+    --color2: #83adb5;
+    --color3: #fcf6f0;
+
+}
+
+* {
+    font-family: Courier, monospace, sans-serif;
+    color: var(--color3);
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color2);
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.header a:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.aboutme-container .left-side {
+    display: flex;
+    justify-content: right;
+    width: 20%;
+    padding-right: 10px;
+}
+
+.aboutme-container .right-side {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 79.8%;
+    padding-left: 15px;
+}
